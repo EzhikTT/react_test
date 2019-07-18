@@ -1,0 +1,52 @@
+.ListItem {
+  width: 460px;
+}
+.ListItem img {
+  width: 100%;
+  height: auto;
+}
+.ListItem .header {
+  font-size: 1.3rem;
+  color: #000;
+}
+.ListItem .desc {
+  font-size: 0.8rem;
+  color: #808080;
+}
+.ListItem .ListItem-body {
+  position: relative;
+}
+.ListItem .ListItem-body > div {
+  padding: 10px;
+}
+.ListItem .ListItem-body_adout {
+  border: 1px solid #608d99;
+  border-right: 0;
+  border-left: 0;
+}
+.ListItem .ListItem-body svg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  color: #00f;
+}
+.ListItem .ListItem-head {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.ListItem .ListItem-head_header {
+  margin: 0 auto;
+}
+.ListItem .ListItem-head a {
+  text-decoration: none;
+  color: #00f;
+  display: flex;
+  align-items: center;
+}
+.ListItem .ListItem-head a svg {
+  width: 20px;
+  height: 20px;
+}
